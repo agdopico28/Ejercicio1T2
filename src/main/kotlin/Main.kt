@@ -51,7 +51,8 @@ class FitxerImatge(fEnt: File) {
             readByte =input.read()
             count++
         }
-
+        input.close()
+        out.close()
     }
 
     fun transformaObscur() {
@@ -70,6 +71,8 @@ class FitxerImatge(fEnt: File) {
             readByte =input.read()
             count++
         }
+        input.close()
+        out.close()
     }
 
 
